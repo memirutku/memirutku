@@ -1,8 +1,8 @@
+# memirutku
+
 <div align="center">
 
 <a id="top"></a>
-
-# memirutku
 
 **Dil &nbsp;·&nbsp; Language:** [**Türkçe**](#türkçe) &nbsp;|&nbsp; [**English**](#english)
 
