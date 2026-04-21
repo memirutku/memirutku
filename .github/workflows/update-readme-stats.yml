@@ -1,7 +1,3 @@
-# Private + public istatistikler için classic PAT kullan: repo + read:user
-# Repo ayarları → Secrets → Actions → README_STATS_PAT
-# Sonra: Actions → "Update README stats" → Run workflow
-
 name: Update README stats
 
 on:
@@ -24,15 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Verify README_STATS_PAT secret
+      - name: Verify Actions secret
         env:
           README_STATS_PAT: ${{ secrets.README_STATS_PAT }}
         run: |
           if [ -z "$README_STATS_PAT" ]; then
-            echo "::error::README_STATS_PAT yok veya boş. Repo → Settings → Secrets and variables → Actions → Repository secrets altında ekleyin (Environment secret yetmez)."
+            echo "::error::Required repository secret is missing or empty."
             exit 1
           fi
-          echo "README_STATS_PAT tanımlı; kartlar authenticated GitHub API ile üretilecek."
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1.1
@@ -50,22 +45,13 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_PAT }}
 
-      - name: Write card summary to job log
-        run: |
-          echo "## Üretilen istatistik kartı (SVG içinden)" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo '```text' >> "$GITHUB_STEP_SUMMARY"
-          grep -o '<desc id="descId">[^<]*</desc>' profile/stats.svg | sed 's/<[^>]*>//g' >> "$GITHUB_STEP_SUMMARY" || true
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-
       - name: Commit SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/stats.svg profile/top-langs.svg
           if git diff --staged --quiet; then
-            echo "SVG dosyaları önceki commit ile aynı; yeni commit oluşturulmadı."
-            echo "Profilde hâlâ eski görünüyorsa: GitHub → Settings → Profile → Contributions → **Include private contributions on my profile** açık olsun."
+            echo "No changes to SVG files; skipping commit."
             exit 0
           fi
           git commit -m "chore: refresh GitHub readme stat SVGs"
