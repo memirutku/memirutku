@@ -1,0 +1,48 @@
+# Private + public istatistikler için classic PAT kullan: repo + read:user
+# Repo ayarları → Secrets → Actions → README_STATS_PAT
+# Sonra: Actions → "Update README stats" → Run workflow
+
+name: Update README stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-readme-stats
+  cancel-in-progress: true
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&hide_title=true&commits_year=2026
+          path: profile/stats.svg
+          token: ${{ secrets.README_STATS_PAT }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_title=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.README_STATS_PAT }}
+
+      - name: Commit SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/stats.svg profile/top-langs.svg
+          git diff --staged --quiet && echo "No card changes" && exit 0
+          git commit -m "chore: refresh GitHub readme stat SVGs"
+          git push
