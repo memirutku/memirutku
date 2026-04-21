@@ -45,6 +45,24 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_PAT }}
 
+      - name: Pad top-langs card to match stats aspect ratio
+        run: |
+          python3 - <<'PY'
+          import re, pathlib
+          svg_path = pathlib.Path('profile/top-langs.svg')
+          svg = svg_path.read_text()
+          # Native size is 440x135. Expand canvas to 440x156 (~stats aspect 2.82)
+          # so the displayed 400x150 box letterboxes symmetrically with stats.
+          svg = re.sub(r'(<svg\s[^>]*?)height="135"', r'\1height="156"', svg, count=1)
+          svg = re.sub(r'viewBox="0 0 440 135"', 'viewBox="0 0 440 156"', svg, count=1)
+          svg = re.sub(
+              r'(data-testid="main-card-body"[^>]*?transform="translate\(0,\s*)25(\))',
+              r'\g<1>35.5\g<2>',
+              svg,
+          )
+          svg_path.write_text(svg)
+          PY
+
       - name: Download streak stats SVG
         run: |
           curl -fsSL -H "Cache-Control: no-cache" \

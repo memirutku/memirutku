@@ -1,8 +1,8 @@
 
       <svg
         width="440"
-        height="135"
-        viewBox="0 0 440 135"
+        height="156"
+        viewBox="0 0 440 156"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -101,7 +101,7 @@
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 25)"
+          transform="translate(0, 35.5)"
         >
           
     <svg data-testid="lang-items" x="25">
