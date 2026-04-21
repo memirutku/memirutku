@@ -21,6 +21,29 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 <br /><br />
 <img src="./profile/activity.svg" alt="GitHub aktivite grafiği" />
 
+<br /><br />
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Milvus-00A1EA?style=for-the-badge" alt="Milvus" />
+</p>
+
+<br />
+
+<img src="https://github-profile-trophy.vercel.app/?username=memirutku&theme=darkhub&no-frame=true&margin-w=6&margin-h=6&column=7" alt="GitHub trofeileri" />
+
+<br /><br />
+
+<a href="https://github.com/memirutku/turkcell"><img src="./profile/pin-turkcell.svg" alt="turkcell" /></a>
+&nbsp;
+<a href="https://github.com/memirutku/peakIntern"><img src="./profile/pin-peakintern.svg" alt="peakIntern" /></a>
+
 </div>
 
 ---
@@ -45,6 +68,7 @@ Aşağıdaki repolar, portföy ve teknik tekrar edilebilirlik için **public** t
 - LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
 - X: [@memir_dev](https://x.com/memir_dev)  
 - Site: [memir.net](https://memir.net/)  
+- Yazılar: [memir.net](https://memir.net/)  
 - Repolar: ilgili depodaki `README` ve lisans/uyarı metinlerine bakın (özellikle **demo / prototip** geçen projelerde).
 
 **[↑ Başa dön](#top)**
@@ -71,6 +95,7 @@ Below are public repositories (some originate from a **competition** or **intern
 - LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
 - X: [@memir_dev](https://x.com/memir_dev)  
 - Website: [memir.net](https://memir.net/)  
+- Writing: [memir.net](https://memir.net/)  
 - Repositories: see each `README` for scope and notices (especially demos and prototypes).
 
 **[↑ Back to top](#top)**
