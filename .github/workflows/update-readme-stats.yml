@@ -47,7 +47,7 @@ jobs:
 
       - name: Download streak stats SVG
         run: |
-          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=false" -o profile/streak.svg
+          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=false&border=30363d" -o profile/streak.svg
 
       - name: Download activity graph SVG
         run: |
