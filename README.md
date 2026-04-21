@@ -17,7 +17,7 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 &nbsp;
 <img src="./profile/top-langs.svg" alt="Dil dağılımı" height="150" />
 
-*Kartlar repodaki SVG dosyalarından gelir; [GitHub Actions](https://github.com/memirutku/memirutku/actions) günlük (ve elle tetiklemede) [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ile yenilenir. **Private repolar public olmadan** sayılması için repo secret `README_STATS_PAT` (classic PAT: `repo` + `read:user`) tanımlanmalıdır. Ana kartta commit sayısı `commits_year=2026` ile 1 Ocak 2026’dan itibaren sayılır.*
+*Kartlar repodaki SVG dosyalarından gelir; [GitHub Actions](https://github.com/memirutku/memirutku/actions) günlük (ve elle tetiklemede) [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) ile yenilenir. **Private repolar public olmadan** sayılması için repo secret `README_STATS_PAT` (classic PAT: `repo` + `read:user`) tanımlanmalıdır. Private commit’lerin katkı sayımına girmesi için profilde [private contributions](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-settings-on-your-profile) ayarını da kontrol et. Ana kartta commit sayısı `commits_year=2026` ile 1 Ocak 2026’dan itibaren sayılır.*
 
 </div>
 
