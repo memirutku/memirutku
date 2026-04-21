@@ -14,17 +14,17 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 ---
 
 <p align="center">
-  <img src="./profile/stats.svg?v=8" alt="GitHub istatistikleri" width="425" />
+  <img src="./profile/stats.svg?v=9" alt="GitHub istatistikleri" width="400" height="150" />
   &nbsp;
-  <img src="./profile/top-langs.svg?v=8" alt="Dil dağılımı" width="425" />
+  <img src="./profile/top-langs.svg?v=9" alt="Dil dağılımı" width="400" height="150" />
 </p>
 
 <p align="center">
-  <img src="./profile/streak.svg?v=8" alt="GitHub katkı serisi" height="150" />
+  <img src="./profile/streak.svg?v=9" alt="GitHub katkı serisi" height="150" />
 </p>
 
 <p align="center">
-  <img src="./profile/activity.svg?v=8" alt="GitHub aktivite grafiği" />
+  <img src="./profile/activity.svg?v=9" alt="GitHub aktivite grafiği" />
 </p>
 
 <br /><br />
@@ -42,14 +42,14 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 
 <br />
 
-<img src="./profile/trophy.svg?v=8" alt="GitHub trofeileri" />
+<img src="./profile/trophy.svg?v=9" alt="GitHub trofeileri" />
 
 <br /><br />
 
 <p align="center">
-  <a href="https://github.com/memirutku/turkcell"><img align="center" src="./profile/pin-turkcell.svg?v=8" alt="turkcell" width="380" /></a>
+  <a href="https://github.com/memirutku/turkcell"><img align="center" src="./profile/pin-turkcell.svg?v=9" alt="turkcell" width="380" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/memirutku/peakIntern"><img align="center" src="./profile/pin-peakintern.svg?v=8" alt="peakIntern" width="380" /></a>
+  <a href="https://github.com/memirutku/peakIntern"><img align="center" src="./profile/pin-peakintern.svg?v=9" alt="peakIntern" width="380" /></a>
 </p>
 
 </div>
