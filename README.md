@@ -17,8 +17,6 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 &nbsp;
 <img src="./profile/top-langs.svg" alt="Dil dağılımı" height="150" />
 
-*Görseller `profile/` klasöründeki SVG dosyalarından yüklenir.*
-
 </div>
 
 ---
