@@ -9,6 +9,8 @@
 Yapay zekâ destekli uygulamalar · *AI systems, agents, and full-stack product builds.*  
 Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 
+[![](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mustafa-emir-utku-179118172/) [![](https://img.shields.io/badge/X-000000?logo=x&logoColor=white)](https://x.com/memir_dev) [![](https://img.shields.io/badge/memir.net-0d1117?logo=googlechrome&logoColor=white)](https://memir.net/)
+
 ---
 
 <img src="https://github-readme-stats.vercel.app/api?username=memirutku&show_icons=true&theme=dark&hide_title=true" alt="GitHub istatistikleri" height="150" />
@@ -37,8 +39,11 @@ Aşağıdaki repolar, portföy ve teknik tekrar edilebilirlik için **public** t
 
 ### İletişim
 
-- GitHub profili: [github.com/memirutku](https://github.com/memirutku)  
-- Repolar hakkındaki notlar: ilgili depodaki `README` ve lisans/uyarı metinlerine bakın (özellikle **demo / prototip** geçen projelerde).
+- GitHub: [github.com/memirutku](https://github.com/memirutku)  
+- LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
+- X: [@memir_dev](https://x.com/memir_dev)  
+- Site: [memir.net](https://memir.net/)  
+- Repolar: ilgili depodaki `README` ve lisans/uyarı metinlerine bakın (özellikle **demo / prototip** geçen projelerde).
 
 **[↑ Başa dön](#top)**
 
@@ -60,7 +65,10 @@ Below are public repositories (some originate from a **competition** or **intern
 
 ### Contact
 
-- Profile: [github.com/memirutku](https://github.com/memirutku)  
-- Project-specific notes: see each repository’s `README` (especially demos and prototypes).
+- GitHub: [github.com/memirutku](https://github.com/memirutku)  
+- LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
+- X: [@memir_dev](https://x.com/memir_dev)  
+- Website: [memir.net](https://memir.net/)  
+- Repositories: see each `README` for scope and notices (especially demos and prototypes).
 
 **[↑ Back to top](#top)**
