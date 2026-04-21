@@ -1,8 +1,8 @@
-# memirutku
-
 <div align="center">
 
 <a id="top"></a>
+
+# memirutku
 
 **Dil &nbsp;·&nbsp; Language:** [**Türkçe**](#türkçe) &nbsp;|&nbsp; [**English**](#english)
 
@@ -61,17 +61,15 @@ Aşağıdaki repolar, portföy ve teknik tekrar edilebilirlik için **public** t
 
 | Repo | Kısaca ne | Öne çıkan yığın |
 | ---- | -------- | --------------- |
-| [**turkcell**](https://github.com/memirutku/turkcell) | Umay AI-Gen: telekom müşteri hizmetleri için **ses + metin** asistan; RAG, MCP, Docker | Next.js, FastAPI, Milvus, Gemini, Compose |
-| [**peakIntern**](https://github.com/memirutku/peakIntern) | **Doğal dil → JSON şema** ile doğrulanan yapılandırma; yerel **Ollama** | Flask, Docker, JSON Schema |
+| [**turkcell**](https://github.com/memirutku/turkcell) | Umay AI-Gen: telekom için **ses + metin** asistan; RAG, MCP | Next.js · FastAPI · Milvus · Gemini · Docker |
+| [**peakIntern**](https://github.com/memirutku/peakIntern) | Doğal dil → JSON’u **JSON Schema** ile doğrulayan yerel **Ollama** asistanı | Flask · Docker · JSON Schema |
 
 ### İletişim
 
 - GitHub: [github.com/memirutku](https://github.com/memirutku)  
 - LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
 - X: [@memir_dev](https://x.com/memir_dev)  
-- Site: [memir.net](https://memir.net/)  
-- Yazılar: [memir.net](https://memir.net/)  
-- Repolar: ilgili depodaki `README` ve lisans/uyarı metinlerine bakın (özellikle **demo / prototip** geçen projelerde).
+- Site: [memir.net](https://memir.net/)
 
 **[↑ Başa dön](#top)**
 
@@ -88,16 +86,14 @@ Below are public repositories (some originate from a **competition** or **intern
 
 | Repo | What it is | Notable stack |
 | ---- | ---------- | -------------- |
-| [**turkcell**](https://github.com/memirutku/turkcell) | **Umay AI-Gen** — **voice + text** telecom customer assistant; RAG, MCP, Docker | Next.js, FastAPI, Milvus, Gemini, Compose |
-| [**peakIntern**](https://github.com/memirutku/peakIntern) | **Natural language → JSON** updates validated with **JSON Schema**; local **Ollama** | Flask, Docker, JSON Schema |
+| [**turkcell**](https://github.com/memirutku/turkcell) | **Umay AI-Gen** — voice + text telecom assistant; RAG, MCP | Next.js · FastAPI · Milvus · Gemini · Docker |
+| [**peakIntern**](https://github.com/memirutku/peakIntern) | Plain-English → JSON validated with **JSON Schema**; local **Ollama** | Flask · Docker · JSON Schema |
 
 ### Contact
 
 - GitHub: [github.com/memirutku](https://github.com/memirutku)  
 - LinkedIn: [Mustafa Emir Utku](https://www.linkedin.com/in/mustafa-emir-utku-179118172/)  
 - X: [@memir_dev](https://x.com/memir_dev)  
-- Website: [memir.net](https://memir.net/)  
-- Writing: [memir.net](https://memir.net/)  
-- Repositories: see each `README` for scope and notices (especially demos and prototypes).
+- Website: [memir.net](https://memir.net/)
 
 **[↑ Back to top](#top)**
