@@ -13,11 +13,11 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api?username=memirutku&show_icons=true&theme=dark&hide_title=true" alt="GitHub istatistikleri" height="150" />
+<img src="https://github-readme-stats.vercel.app/api?username=memirutku&show_icons=true&theme=dark&hide_title=true&commits_year=2026" alt="GitHub istatistikleri" height="150" />
 &nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=memirutku&layout=compact&theme=dark&hide_title=true" alt="Dil dağılımı" height="150" />
 
-*İstatistik kartları [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) üzerinden yüklenir; VPN veya rate limit gibi nedenlerle ara ara görünmeyebilir.*
+*İstatistik kartları [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) üzerinden yüklenir; VPN veya rate limit gibi nedenlerle ara ara görünmeyebilir. Ana kartta commit sayısı `commits_year=2026` ile 1 Ocak 2026’dan itibaren sayılır.*
 
 </div>
 
