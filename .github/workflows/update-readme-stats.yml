@@ -41,13 +41,13 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1.1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_title=true
+          options: username=${{ github.repository_owner }}&layout=compact&theme=dark&hide_title=true&card_width=440
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_PAT }}
 
       - name: Download streak stats SVG
         run: |
-          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true" -o profile/streak.svg
+          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=false" -o profile/streak.svg
 
       - name: Download activity graph SVG
         run: |
