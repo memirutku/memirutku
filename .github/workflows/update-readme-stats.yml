@@ -53,6 +53,32 @@ jobs:
         run: |
           curl -fsSL "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=github-dark&hide_border=true" -o profile/activity.svg
 
+      - name: Download GitHub trophy SVG
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
+        run: |
+          trophy_path="profile/trophy.svg"
+          trophy_query="username=${REPO_OWNER}&theme=darkhub&no-frame=true&margin-w=6&margin-h=6&column=7"
+          for base in \
+            "https://gh-trophy.cdnsoft.net" \
+            "https://trophy.benkou.dev" \
+            "https://trophy.ryglcloud.net"; do
+            if curl -fsSL "${base}/?${trophy_query}" -o "${trophy_path}.new" && \
+               [ -s "${trophy_path}.new" ] && head -c 400 "${trophy_path}.new" | grep -q '<svg'; then
+              mv "${trophy_path}.new" "${trophy_path}"
+              rm -f "${trophy_path}.new"
+              exit 0
+            fi
+            rm -f "${trophy_path}.new"
+          done
+          if git cat-file -e "HEAD:${trophy_path}" 2>/dev/null; then
+            git checkout HEAD -- "${trophy_path}"
+            echo "::warning::Trophy mirrors failed; kept committed SVG."
+            exit 0
+          fi
+          echo "::error::Trophy SVG could not be downloaded and no previous file exists."
+          exit 1
+
       - name: Generate repo pin card (turkcell)
         uses: readme-tools/github-readme-stats-action@v1.1
         with:
@@ -73,7 +99,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg profile/streak.svg profile/activity.svg profile/pin-turkcell.svg profile/pin-peakintern.svg
+          git add profile/stats.svg profile/top-langs.svg profile/streak.svg profile/activity.svg profile/trophy.svg profile/pin-turkcell.svg profile/pin-peakintern.svg
           if git diff --staged --quiet; then
             echo "No changes to SVG files; skipping commit."
             exit 0

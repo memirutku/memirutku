@@ -36,7 +36,7 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 
 <br />
 
-<img src="https://github-profile-trophy.vercel.app/?username=memirutku&theme=darkhub&no-frame=true&margin-w=6&margin-h=6&column=7" alt="GitHub trofeileri" />
+<img src="./profile/trophy.svg" alt="GitHub trofeileri" />
 
 <br /><br />
 
