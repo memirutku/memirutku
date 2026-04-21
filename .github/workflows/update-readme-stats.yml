@@ -45,14 +45,22 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.README_STATS_PAT }}
 
+      - name: Download streak stats SVG
+        run: |
+          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=dark&hide_border=true" -o profile/streak.svg
+
+      - name: Download activity graph SVG
+        run: |
+          curl -fsSL "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=github-dark&hide_border=true" -o profile/activity.svg
+
       - name: Commit SVGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/stats.svg profile/top-langs.svg
+          git add profile/stats.svg profile/top-langs.svg profile/streak.svg profile/activity.svg
           if git diff --staged --quiet; then
             echo "No changes to SVG files; skipping commit."
             exit 0
           fi
-          git commit -m "chore: refresh GitHub readme stat SVGs"
+          git commit -m "chore: refresh profile readme SVGs"
           git push

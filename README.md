@@ -16,6 +16,10 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 <img src="./profile/stats.svg" alt="GitHub istatistikleri" height="150" />
 &nbsp;
 <img src="./profile/top-langs.svg" alt="Dil dağılımı" height="150" />
+<br /><br />
+<img src="./profile/streak.svg" alt="GitHub katkı serisi" />
+<br /><br />
+<img src="./profile/activity.svg" alt="GitHub aktivite grafiği" />
 
 </div>
 
