@@ -40,16 +40,11 @@ Telekom ve oyun/altyapı senaryoları üzerine üretim odaklı repolar.
 
 <br /><br />
 
-<table align="center" cellpadding="0" cellspacing="12" border="0">
-  <tr>
-    <td align="center" valign="top">
-      <a href="https://github.com/memirutku/turkcell"><img src="./profile/pin-turkcell.svg" alt="turkcell" width="380" /></a>
-    </td>
-    <td align="center" valign="top">
-      <a href="https://github.com/memirutku/peakIntern"><img src="./profile/pin-peakintern.svg" alt="peakIntern" width="380" /></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/memirutku/turkcell"><img align="center" src="./profile/pin-turkcell.svg" alt="turkcell" width="380" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/memirutku/peakIntern"><img align="center" src="./profile/pin-peakintern.svg" alt="peakIntern" width="380" /></a>
+</p>
 
 </div>
 
