@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Mustafa Emir Utku's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 1, Total Commits  (2026) : 1122, Total PRs: 4, Total Issues: 0, Contributed to (last year): 0</desc>
+        <title id="titleId">Mustafa Emir Utku's GitHub Stats, Rank: B-</title>
+        <desc id="descId">Total Stars Earned: 1, Total Commits  (2026) : 1201, Total PRs: 38, Total Issues: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 202.78355419359906;
+        stroke-dashoffset: 180.07579395105364;
       }
     }
   
@@ -129,7 +129,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          C+
+          B-
         </text>
       
         </g>
@@ -163,7 +163,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >1.1k</text>
+      >1.2k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -178,7 +178,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >4</text>
+      >38</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
